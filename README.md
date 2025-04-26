@@ -49,7 +49,7 @@ webserver,Application,dataase this is called three tiere architecture
 you  need to think about the costs with data transfer while hosting multilple AZ
 K
 
-**Why should you run DBs on EC2?**
+***Why should you run DBs on EC2?***
 
 Access to the DB instance OS.
 
