@@ -77,3 +77,17 @@ Will miss out on features from AWS DB products.
 Skills and setup time to monitor.
 
 Performance will be slower than AWS options.
+
+
+K
+
+***Relational Database Service (RDS)***
+
+
+Database-as-a-service (DBaaS) - not really true. It is more of Database Server-as-a-service.
+
+Managed Database Instance for one or more databases
+
+Databases - MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL
+
+Amazon Aurora - This is so different from normal RDS, it is a separate product.
