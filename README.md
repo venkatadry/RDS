@@ -61,3 +61,18 @@ DB or DB version that AWS doesn't provide.
 
 You might need a specific version of an OS and DB that AWS doesn't provide.
 
+
+
+Why shouldn't you run DBs on EC2?
+
+Admin overhead.
+
+Backup and DR.
+
+EC2 is running in a single AZ.
+
+Will miss out on features from AWS DB products.
+
+Skills and setup time to monitor.
+
+Performance will be slower than AWS options.
