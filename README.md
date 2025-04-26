@@ -46,3 +46,18 @@ Uniqueness Constraint: The combination of values in these columns must be unique
 
 ![image](https://github.com/user-attachments/assets/21ef0214-0c10-4790-b1aa-a50dd14df36e)
 webserver,Application,dataase this is called three tiere architecture
+you  need to think about the costs with data transfer while hosting multilple AZ
+K
+
+Why should you run DBs on EC2?
+
+Access to the DB instance OS.
+
+Advanced DB Option tuning (DBROOT).
+
+Vendor demands.
+
+DB or DB version that AWS doesn't provide.
+
+You might need a specific version of an OS and DB that AWS doesn't provide.
+
