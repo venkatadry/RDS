@@ -10,7 +10,7 @@ AWS Demo
 
 K
 
-Overview of Databases
+**Overview of Databases**
 
 A MO
 
@@ -49,7 +49,7 @@ webserver,Application,dataase this is called three tiere architecture
 you  need to think about the costs with data transfer while hosting multilple AZ
 K
 
-Why should you run DBs on EC2?
+**Why should you run DBs on EC2?**
 
 Access to the DB instance OS.
 
@@ -63,7 +63,7 @@ You might need a specific version of an OS and DB that AWS doesn't provide.
 
 
 
-Why shouldn't you run DBs on EC2?
+**Why shouldn't you run DBs on EC2?**
 
 Admin overhead.
 
