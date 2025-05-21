@@ -10,7 +10,8 @@ memcached
 
 Elastic cache:in memory database caching service
 ll frequent
-![image](https://github.com/user-attachments/assets/cba5ebe5-f8b4-43ee-8111-02585a066af9)
+![image](https://github.com/user-attachments/assets/71d146a4-6e73-40d3-841a-4c01f8266b82)
+
 ![image](https://github.com/user-attachments/assets/59924bd0-ed3a-4895-b828-6b4bef64002d)
 
 AWS out post ->on prem private cloud
