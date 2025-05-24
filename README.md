@@ -113,3 +113,15 @@ Billing is per instance and hourly rate for that compute. You are billed for sto
 
 BY default 40 DB instancs
 
+
+To Create Databse
+RDS--?Standard create-->Mariadb
+select version -->Templates:Production-->DB instance identifier:demo-rds-database
+Credentials Settings-->give user name and  password
+Instance configuration->select Db instance class
+standard class ,memory optimized,burstable
+
+
+
+
+
