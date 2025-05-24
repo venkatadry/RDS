@@ -143,8 +143,53 @@ Network type
   IPV4, Dual Stack mode(Your resources can communte over IPV4,IPV6 or  both)
 
   select VPC
-  DB Subnet group(Choose the DB subnet group. The DB subnet group defines which subnets and IP ranges the DB instance can use in the VPC that you selected.)
+  DB Subnet group(Choose the DB subnet group. The DB subnet group defines which subnets and IP ranges the DB instance can use in the VPC that you selected.)(These can be created with the left menu option in RDS)
   Public access:NO
+
+  VPC security group (firewall)- you should make sure you enable port 
+ Certificate authority - optional
+
+Using a server certificate provides an extra layer of security by validating that the connection is being made to an Amazon database. It does so by checking the server certificate that is automatically installed on all databases that you provision.
+
+Additional configuration -->you can create a DB from here, Als you can setup backup(snapshot) and retention,Log exports
+
+Maintenance window
+Select the period you want pending modifications or maintenance applied to the database by Amazon RDS.
+Choose a window
+No preference
+Enable deletion protection(Protects the database from being deleted accidentally. While this option is enabled, you can’t delete the database.)
+
+
+every DB instance will have endpoint.Apps connect through endpoint only,it will notchange
+
+
+Database Instance vs. Database
+Database Instance: This refers to the set of memory structures and background processes that manage database files. It handles tasks like query processing, memory management, and transaction control. An instance provides the environment in which databases operate.
+This vs. That
+
+Database: This is the organized collection of data stored on disk. It encompasses the actual data files, schemas, tables, indexes, and other objects that store and organize information.
+
+
+What is a DB Instance Endpoint?
+A DB instance endpoint is a unique DNS address assigned to your database instance. It typically includes:
+AWS Documentation
+Repost
+
+Host: The DNS address of the DB instance.
+AWS Documentation
+
+Port: The port number on which the database listens for connections (e.g., 3306 for MySQL, 5432 for PostgreSQL).
+
+When configuring your database client or application, you use this endpoint to establish a connection to the database instance. For example, in a connection string, you'd specify the endpoint as the host and include the appropriate port number. 
+A
+
+
+Step 1: Get the dump of your existing DB on EC2
+Step 2: Connect to your RDS DB Instance.
+Step 3: Migrate the DB Dump that you have taken in Step 1 to RDS.
+Step 4: Verify if the data is available.
+
+
 
 
 
