@@ -121,6 +121,30 @@ Credentials Settings-->give user name and  password
 Instance configuration->select Db instance class
 standard class ,memory optimized,burstable
 
+select storage class
+select :stoarge type, Allocated storage
+General Purpose SSD (gp2)
+Baseline performance determined by volume s
+Provisioned IOPS SSD (0)
+Floxitility in provuaning
+magnetic
+
+
+Enable storage autoscaling
+Enabling tas fatin will allow the storage tokocreate after the soerified theesheld in
+
+Availability & durability
+Multi-AZ deployment Into
+
+Connectivity
+Don't connect to an EC2 compute resource
+
+Network type
+  IPV4, Dual Stack mode(Your resources can communte over IPV4,IPV6 or  both)
+
+  select VPC
+  DB Subnet group(Choose the DB subnet group. The DB subnet group defines which subnets and IP ranges the DB instance can use in the VPC that you selected.)
+  Public access:NO
 
 
 
