@@ -110,3 +110,6 @@ When you provision an instance, you provision storage that is dedicated to that 
 The storage can be allocated with SSD or magnetic.
 Billing is per instance and hourly rate for that compute. You are billed for storage allocated.
 
+
+BY default 40 DB instancs
+
