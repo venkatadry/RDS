@@ -91,3 +91,22 @@ Managed Database Instance for one or more databases
 Databases - MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL
 
 Amazon Aurora - This is so different from normal RDS, it is a separate product.
+
+
+
+
+
+Relational Database Service (RDS)
+Database-as-a-service (DBaaS) - not really true. It is more of Database Server-as-a-service.
+Managed Database Instance for one or more databases
+Databases - MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL
+Amazon Aurora - This is so different from normal RDS, it is a separate product.
+
+
+RDS Database Instance
+Database connects with a CNAME. RDS uses standard database engines.
+The database can be optimized for:db.m5 general, db.r5 memory, db.t3 burst.
+When you provision an instance, you provision storage that is dedicated to that instance. This is EBS storage located in the same AZ. RDS is vulnerable to failures in that AZ.
+The storage can be allocated with SSD or magnetic.
+Billing is per instance and hourly rate for that compute. You are billed for storage allocated.
+
