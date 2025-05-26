@@ -206,7 +206,7 @@ https://www.youtube.com/watch?v=PA0MPTzsieM&t=63s
 
 ![image](https://github.com/user-attachments/assets/4a7e15f5-a99c-42d4-a82b-dc5393f5e61a)
 
-Aurora Global Database employs asynchronous replication between the primary AWS Region and up to five secondary Regions. This means that write operations to the primary cluster do not wait for the secondary clusters to receive and process the changes. Data is replicated using storage-based, block-level replication with typical latencies under one second, facilitating low-latency global reads and disaster recovery capabilities
+Aurora Global Database employs asynchronous replication between the primary AWS Region and up to five secondary Regions.15  Replicas for Aurora .This means that write operations to the primary cluster do not wait for the secondary clusters to receive and process the changes. Data is replicated using storage-based, block-level replication with typical latencies under one second, facilitating low-latency global reads and disaster recovery capabilities
 
 Up to 5 Read Replicas
 Within AZ, Cross AZ or Cross Region
@@ -214,7 +214,7 @@ Replication is ASYNC, so reads are eventually consistent
 Replicas can be promoted to their own DB
 Applications must update the connection string to leverage read replicas
 
-Both your source DB cluster and your cross-Region read replica DB cluster can have up to 15 Aurora Replicas, along with the primary instance for the DB cluster.
+.
 
 
 If you are reading it from Read replica there will be some lag .you can do this if you are using any reporting environemnt for that some kind of lag is fine
