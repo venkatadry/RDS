@@ -10,4 +10,4 @@ https://in.indeed.com/career-advice/interviewing/aws-rds-interview-questions
 https://techwasti.com/top-15-aws-rds-interview-questions-and-answers
 
 
-https://github.com/avizway1/aws-interview-questions/blob/main/rds.md
+
